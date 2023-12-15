@@ -1,0 +1,448 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "basis",
+      "attributes": [
+        {
+          "name": "core",
+          "description": "",
+          "values": [
+            { "name": "call" },
+            { "name": "inlineSource" },
+            { "name": "dbsource" },
+            { "name": "print" },
+            { "name": "list" },
+            { "name": "tree" },
+            { "name": "view" },
+            { "name": "repeater" },
+            { "name": "group" },
+            { "name": "api" },
+            { "name": "callback" }
+          ]
+        },
+        {
+          "name": "lefttblcol",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "righttblcol",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "jointype",
+          "description": "",
+          "values": [{ "name": "leftjoin" }, { "name": "rightjoin" }]
+        },
+        {
+          "name": "noCache",
+          "description": "",
+          "values": [{ "name": "true" }, { "name": "false" }]
+        },
+        {
+          "name": "bc-value",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "url",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "pagesize",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "path",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+
+        {
+          "name": "body",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "bc-triggers",
+          "description": "",
+          "values": [
+            { "name": "click" },
+            { "name": "change" },
+            { "name": "keydown" },
+            { "name": "keypress" },
+            { "name": "keyup" },
+            { "name": "mouseover" },
+            { "name": "mousemove" },
+            { "name": "mouseleave" }
+          ]
+        },
+        {
+          "name": "triggers",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "OnRendering",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+
+        {
+          "name": "OnRendered",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "OnProcessing",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "OnProcessed",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "bc-keyField",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "bc-statusField",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "bc-merge",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "name",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "value",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "options",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "replace",
+          "description": "",
+          "values": [{ "name": "true" }, { "name": "false" }]
+        },
+        {
+          "name": "preview",
+          "description": "",
+          "values": [{ "name": "true" }, { "name": "false" }]
+        },
+        {
+          "name": "idcol",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "nullvalue",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "level",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "parentidcol",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "rowtype",
+          "description": "",
+          "values": [{ "name": "even" }, { "name": "odd" }]
+        },
+        {
+          "name": "rendertype",
+          "description": "",
+          "values": [{ "name": "replace" }, { "name": "append" }]
+        },
+        {
+          "name": "renderto",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "filter",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "sampleData",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+
+        {
+          "name": "data",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "if",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "run",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "file",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+
+        {
+          "name": "method",
+          "description": "",
+          "values": [{ "name": "get" }, { "name": "post" }]
+        },
+        {
+          "name": "source",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "name",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "lid",
+          "description": "1: فارسی\n\n2: انگلیسی\n\n3: عربی\n\n4: فرانسه\n\n5: آلمانی\n\n6: اسپانیایی\n\n7: روسی\n\n8: چینی\n\n9: ترکی\n\n10: گرجی\n\n11: ارمنی\n\n12: آذری\n\n13: اندونزیایی\n\n14: تایلندی\n\n15: اردو\n\n16: هندی\n",
+          "values": [
+            { "name": "1" },
+            { "name": "2" },
+            { "name": "3" },
+            { "name": "4" },
+            { "name": "5" },
+            { "name": "6" },
+            { "name": "7" },
+            { "name": "8" },
+            { "name": "9" },
+            { "name": "10" },
+            { "name": "11" },
+            { "name": "12" },
+            { "name": "13" },
+            { "name": "14" },
+            { "name": "15" },
+            { "name": "16" }
+          ]
+        },
+        {
+          "name": "mid",
+          "description": "1: اخبار و مقالات\n\n2: رویدادها\n\n5: شرکت\n\n10: اماکن\n\n11: اشخاص\n\n19: خدمات\n\n20: محصولات\n\n",
+          "values": [
+            { "name": "1" },
+            { "name": "2" },
+            { "name": "5" },
+            { "name": "10" },
+            { "name": "11" },
+            { "name": "19" },
+            { "name": "20" }
+          ]
+        },
+        {
+          "name": "imagenotnull",
+          "description": "",
+          "values": [{ "name": "true" }, { "name": "false" }]
+        },
+        {
+          "name": "catid",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "brandid",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "ownerid",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "usedforid",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "important",
+          "description": "",
+          "values": [{ "name": "true" }, { "name": "false" }]
+        },
+        {
+          "name": "request",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "type",
+          "description": "",
+          "values": [
+            { "name": "view" },
+            { "name": "tree" },
+            { "name": "list" },
+            { "name": "scalar" }
+          ]
+        },
+        {
+          "name": "perpage",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "pageno",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "size",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "seofinder",
+          "description": "",
+          "values": [{ "name": "true" }, { "name": "false" }]
+        },
+        {
+          "name": "schemaid",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "typeid",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "propertyid",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+
+        {
+          "name": "order",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "parentid",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "blgid",
+          "description": "18: محصول مرتبط به محصول\n\n218: مقاله مرتبط به محصول\n\n1527: خدمات مرتبط به محصول\n\n225: اماکن مرتبط به محصول\n\n228: اشخاص مرتبط به محصول\n\n2494: رویداد مرتبط به محصول\n\n222: مقاله مرتبط به مقاله\n\n221: محصول مرتبط به مقاله\n\n224: اماکن مرتبط به مقاله\n\n229: اشخاص مرتبط به مقاله\n\n1611: خدمات مرتبط به مقاله\n\n2495: رویداد مرتبط به مقاله\n\n631: مقاله مرتبط به خدمات\n\n630: محصول مرتبط به خدمات\n\n629: خدمات مرتبط به خدمات\n\n632: اماکن مرتبط به خدمات\n\n633: اشخاص مرتبط به خدمات\n\n2496: رویداد مرتبط به خدمات\n\n219 : مقاله مرتبط به اماکن\n\n1529: خدمات مرتبط به اماکن\n\n216: محصول مرتبط به امکان\n\n2498: رویداد مرتبط به اماکن\n\n230: اشخاص مرتبط به اماکن\n\n223: اماکن مرتبط به اماکن\n\n220: مقاله مرتبط به اشخاص\n\n1530: خدمات مرتبط به اشخاص\n\n217: محصول مرتبط به اشخاص\n\n2497: رویداد مرتبط به اشخاص\n\n226: اماکن مرتبط به اشخاص\n\n227: اشخاص مرتبط به اشخاص\n\n416: مقاله مرتبط به رویداد\n\n415: محصول مرتبط به رویداد\n\n417: اماکن مرتبط به رویداد\n\n418: اشخاص مرتبط به رویداد\n\n419: رویداد مرتبط به رویداد\n",
+          "values": [
+            { "name": "18" },
+            { "name": "218" },
+            { "name": "1527" },
+            { "name": "225" },
+            { "name": "228" },
+            { "name": "2494" },
+            { "name": "222" },
+            { "name": "221" },
+            { "name": "224" },
+            { "name": "229" },
+            { "name": "1611" },
+            { "name": "2495" },
+            { "name": "631" },
+            { "name": "630" },
+            { "name": "629" },
+            { "name": "632" },
+            { "name": "633" },
+            { "name": "2496" },
+            { "name": "219" },
+            { "name": "1529" },
+            { "name": "216" },
+            { "name": "2498" },
+            { "name": "230" },
+            { "name": "223" },
+            { "name": "220" },
+            { "name": "1530" },
+            { "name": "217" },
+            { "name": "2497" },
+            { "name": "226" },
+            { "name": "227" },
+            { "name": "416" },
+            { "name": "415" },
+            { "name": "417" },
+            { "name": "418" },
+            { "name": "419" }
+          ]
+        },
+        {
+          "name": "country",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+
+        {
+          "name": "area",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "usedforid",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "userid",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "rate",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "sourcemid",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "link",
+          "description": "",
+          "values": [{ "name": "" }]
+        },
+        {
+          "name": "format",
+          "description": "3 : videos , 4 : picture",
+          "values": [{ "name": "3" }, { "name": "4" }, { "name": "join" }]
+        },
+        {
+          "name": "sort",
+          "description": "",
+          "values": [{ "name": "" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  /*
+  List full from basiscore client and server with syntax and helper for countinue codes , just a few command not done : 
+  WebSocket, CodeBlock, push, 
+  */
+
+  // script
+  "script : basiscore": {
+    "scope": "html",
+    "prefix": "basiscore",
+    "body": [
+      "<script src=\"https://cdn.basiscore.net/academy.basiscore.com/_js/basiscore-2.23.1.js\"></script>"
+    ]
+  },
+  "script : alasql": {
+    "scope": "html",
+    "prefix": "alasql",
+    "body": []
+  },
+  "script : host": {
+    "scope": "html,javascript,typescript",
+    "prefix": "host",
+    "body": ["const host = {", "    ", "};"]
+  },
+  "script : settings": {
+    "scope": "html,javascript,typescript",
+    "prefix": "settings",
+    "body": [
+      "  settings: {",
+      "      'default.call.verb': \"${1|get,post|}\",",
+      "      'connection.web.callcommand': \"${foldePath}\",",
+      "      'default.dmnid': \"${id}\",",
+      "      'default.binding.regex': \"\\\\\\\\{#([^#]*)#\\\\\\\\}\",",
+      "  }"
+    ]
+  },
+  "script : $bc": {
+    "scope": "html,javascript,typescript",
+    "prefix": "$bcs",
+    "body": ["$$bc.setSource(${key},${value})"]
+  },
+  "script : sources": {
+    "scope": "html,javascript,typescript",
+    "prefix": "sources",
+    "body": [
+      "sources: {",
+      "    'inlineSource.sample1': {",
+      "        data: [",
+      "            { id: 1, name: 'user1' },",
+      "        ]",
+      "    },",
+      "    options: {",
+      "        keyFieldName: \"id\"",
+      "    },",
+      "}"
+    ]
+  },
+
+  // core
+  "core : call": {
+    "scope": "html",
+    "prefix": "call",
+    "body": ["<basis core=\"call\" file=\"${name}\" />"]
+  },
+  "core : inlineSource": {
+    "scope": "html",
+    "prefix": "inlineSource",
+    "body": [
+      "<basis core=\"inlinesource\" name=\"${basisName}\">",
+      "    <member name=\"${memberName}\">",
+      "        <row ${fieldName1:id}=\"${value:1}\" />",
+      "        ",
+      "    </member>",
+      "</basis>"
+    ]
+  },
+  "core : dbsource": {
+    "scope": "html",
+    "prefix": "dbsource",
+    "body": [
+      "<basis core=\"dbsource\" source=\"${sourceName}\" name=\"${basisName}\">",
+      "    <member type=\"${1|tree,list,scalar,view|}\" name=\"${memberName}\" />",
+      "</basis>"
+    ]
+  },
+  "core : print": {
+    "scope": "html",
+    "prefix": "print",
+    "body": [
+      "<basis core=\"print\" datamembername=\"${source}\">",
+      "    <layout>",
+      "        @child",
+      "    </layout>",
+      "    <else-layout>",
+      "        ",
+      "    </else-layout>",
+      "    <face>",
+      "        ",
+      "    </face>",
+      "</basis>"
+    ]
+  },
+  "core : list": {
+    "scope": "html",
+    "prefix": "list",
+    "body": [
+      "<basis core=\"list\" datamembername=\"${source}\">",
+      "    <layout>",
+      "        @child",
+      "    </layout>",
+      "    <divider>",
+      "        ",
+      "    </divider>",
+      "    <incomplete>",
+      "        ",
+      "    </incomplete>",
+      "    <face>",
+      "        ",
+      "    </face>",
+      "</basis>"
+    ]
+  },
+  "core : tree": {
+    "scope": "html",
+    "prefix": "tree",
+    "body": [
+      "<basis core=\"tree\" datamembername=\"${source}\">",
+      "    <layout>",
+      "        @child",
+      "    </layout>",
+      "    <else-layout>",
+      "        ",
+      "    </else-layout>",
+      "    <face>",
+      "        ",
+      "    </face>",
+      "</basis>"
+    ]
+  },
+  "core : view": {
+    "scope": "html",
+    "prefix": "view",
+    "body": [
+      "<basis core=\"view\" datamembername=\"${source}\">",
+      "    <layout>",
+      "        @child",
+      "    </layout>",
+      "    <else-layout>",
+      "        ",
+      "    </else-layout>",
+      "    <face>",
+      "        ",
+      "    </face>",
+      "</basis>"
+    ]
+  },
+  "core : repeater": {
+    "scope": "html",
+    "prefix": "repeater",
+    "body": [
+      "<basis core=\"repeater\" name=\"${repeaterName}\" datamembername=\"${basisName}.${memberName}\">",
+      "    ",
+      "</basis>"
+    ]
+  },
+  "core : group": {
+    "scope": "html",
+    "prefix": "group",
+    "body": ["<basis core=\"group\" if=\"${condition}\">", "    ", "</basis>"]
+  },
+  "core : api": {
+    "scope": "html",
+    "prefix": "api",
+    "body": [
+      "<basis core=\"api\" url=\"${address}\" method=\"${1|get,post|}\" name=\"${source}\" run=\"atclient\"></basis>"
+    ]
+  },
+  "core : callback": {
+    "scope": "html",
+    "prefix": "callback",
+    "body": [
+      "<basis core=\"callback\" triggers=\"${basisname}.${membername}\"></basis>"
+    ]
+  },
+  "core : cookie": {
+    "scope": "html",
+    "prefix": "cookie",
+    "body": [
+      "<basis core=\"cookie\" name=\"${key}\" value=\"${value}\" max-age=\"${time}\" ></basis>"
+    ]
+  },
+
+  // tag
+  "tag : params": {
+    "scope": "html",
+    "prefix": "params",
+    "body": [
+      "<params>",
+      "    <add name=\"${source}\" value=\"${value}\" />",
+      "</params>"
+    ]
+  },
+  "tag : stt": {
+    "scope": "html",
+    "prefix": "stt",
+    "body": ["<script type=\"text/template\">", "    ", "</script>"]
+  },
+
+  // syntax
+  "syntax : [####]": {
+    "scope": "html",
+    "prefix": "##",
+    "body": ["[##${source}##]"]
+  }
+}
