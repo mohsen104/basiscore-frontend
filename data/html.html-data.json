@@ -23,13 +23,11 @@
         },
         {
           "name": "lefttblcol",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "righttblcol",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "jointype",
@@ -43,29 +41,24 @@
         },
         {
           "name": "bc-value",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "url",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "pagesize",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "path",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
 
         {
           "name": "body",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "bc-triggers",
@@ -83,59 +76,48 @@
         },
         {
           "name": "triggers",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "OnRendering",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
 
         {
           "name": "OnRendered",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "OnProcessing",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "OnProcessed",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "bc-keyField",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "bc-statusField",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "bc-merge",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "name",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "value",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "options",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "replace",
@@ -149,23 +131,19 @@
         },
         {
           "name": "idcol",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "nullvalue",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "level",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "parentidcol",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "rowtype",
@@ -179,39 +157,32 @@
         },
         {
           "name": "renderto",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "filter",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "sampleData",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
 
         {
           "name": "data",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "if",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "run",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "file",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
 
         {
@@ -221,13 +192,11 @@
         },
         {
           "name": "source",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "name",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "lid",
@@ -271,23 +240,19 @@
         },
         {
           "name": "catid",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "brandid",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "ownerid",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "usedforid",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "important",
@@ -296,8 +261,7 @@
         },
         {
           "name": "request",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "type",
@@ -311,18 +275,15 @@
         },
         {
           "name": "perpage",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "pageno",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "size",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "seofinder",
@@ -331,29 +292,24 @@
         },
         {
           "name": "schemaid",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "typeid",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "propertyid",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
 
         {
           "name": "order",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "parentid",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "blgid",
@@ -398,49 +354,50 @@
         },
         {
           "name": "country",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
 
         {
           "name": "area",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "usedforid",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "userid",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "rate",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "sourcemid",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "link",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
         },
         {
           "name": "format",
-          "description": "3 : videos , 4 : picture",
-          "values": [{ "name": "3" }, { "name": "4" }, { "name": "join" }]
+          "description": "3 for videos , 4 for picture , pdf for pdf",
+          "values": [
+            { "name": "3" },
+            { "name": "4" },
+            { "name": "pdf" },
+            { "name": "join" }
+          ]
         },
         {
           "name": "sort",
-          "description": "",
-          "values": [{ "name": "" }]
+          "description": ""
+        },
+        {
+          "name": "datamembername",
+          "description": ""
         }
       ]
     }
