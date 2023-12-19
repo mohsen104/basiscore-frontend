@@ -160,10 +160,6 @@
           "description": ""
         },
         {
-          "name": "filter",
-          "description": ""
-        },
-        {
           "name": "sampleData",
           "description": ""
         },
@@ -178,7 +174,8 @@
         },
         {
           "name": "run",
-          "description": ""
+          "description": "",
+          "values": [{ "name": "atclient" }]
         },
         {
           "name": "file",
@@ -397,6 +394,35 @@
         },
         {
           "name": "datamembername",
+          "description": ""
+        },
+        {
+          "name": "min",
+          "description": ""
+        },
+        {
+          "name": "max",
+          "description": ""
+        },
+        {
+          "name": "max-age",
+          "description": ""
+        },
+        {
+          "name": "pageindexid",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "face",
+      "attributes": [
+        {
+          "name": "rowcount",
+          "description": ""
+        },
+        {
+          "name": "filter",
           "description": ""
         }
       ]

@@ -1,7 +1,7 @@
 {
   /*
   List full from basiscore client and server with syntax and helper for countinue codes , just a few command not done : 
-  WebSocket, CodeBlock, push, 
+  WebSocket, CodeBlock, push, schema, component
   */
 
   // script
@@ -9,35 +9,37 @@
     "scope": "html",
     "prefix": "basiscore",
     "body": [
-      "<script src=\"https://cdn.basiscore.net/academy.basiscore.com/_js/basiscore-2.23.1.js\"></script>"
+      "<script src=\"https://cdn.basiscore.net/academy.basiscore.com/_js/basiscore-2.23.1.min.js\"></script>"
     ]
   },
   "script : alasql": {
     "scope": "html",
     "prefix": "alasql",
-    "body": []
+    "body": [
+      "<script src=\"https://cdn.basiscore.net/basispanel.ir/_js/alasql.min.js\"></script>"
+    ]
   },
   "script : host": {
     "scope": "html,javascript,typescript",
     "prefix": "host",
-    "body": ["const host = {", "    ", "};"]
+    "body": ["const host = {", "    $1", "};"]
   },
   "script : settings": {
     "scope": "html,javascript,typescript",
     "prefix": "settings",
     "body": [
-      "  settings: {",
-      "      'default.call.verb': \"${1|get,post|}\",",
-      "      'connection.web.callcommand': \"${foldePath}\",",
-      "      'default.dmnid': \"${id}\",",
-      "      'default.binding.regex': \"\\\\\\\\{#([^#]*)#\\\\\\\\}\",",
-      "  }"
+      "settings: {",
+      "    'default.call.verb': \"${1|get,post|}\",",
+      "    'connection.web.callcommand': \"${foldePath}\",",
+      "    'default.dmnid': \"${id}\",",
+      "    'default.binding.regex': \"\\\\\\\\{##([^#]*)##\\\\\\\\}\",",
+      "}"
     ]
   },
   "script : $bc": {
     "scope": "html,javascript,typescript",
-    "prefix": "$bcs",
-    "body": ["$$bc.setSource(${key},${value})"]
+    "prefix": "$s",
+    "body": ["\\$bc.setSource(\"${key}\",${value});"]
   },
   "script : sources": {
     "scope": "html,javascript,typescript",
@@ -172,7 +174,7 @@
     "scope": "html",
     "prefix": "api",
     "body": [
-      "<basis core=\"api\" url=\"${address}\" method=\"${1|get,post|}\" name=\"${source}\" run=\"atclient\"></basis>"
+      "<basis core=\"api\" url=\"${address}\" method=\"${1|get,post|}\" name=\"${source}\"></basis>"
     ]
   },
   "core : callback": {
