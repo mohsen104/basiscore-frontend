@@ -18,8 +18,66 @@
             { "name": "repeater" },
             { "name": "group" },
             { "name": "api" },
-            { "name": "callback" }
+            { "name": "callback" },
+            { "name": "schema" },
+            { "name": "cookie" },
+            { "name": "component.grid.grid" },
+            { "name": "component.basiscore.exposer" }
           ]
+        },
+        {
+          "name": "paramUrl",
+          "description": ""
+        },
+        {
+          "name": "cell",
+          "description": ""
+        },
+        {
+          "name": "filesPath",
+          "description": ""
+        },
+        {
+          "name": "schemaCallback",
+          "description": ""
+        },
+        {
+          "name": "schemaUrl",
+          "description": ""
+        },
+        {
+          "name": "schemaUrl",
+          "description": ""
+        },
+
+        {
+          "name": "schemaUrl",
+          "description": ""
+        },
+        {
+          "name": "displayMode",
+          "description": "",
+          "values": [{ "name": "new" }, { "name": "edit" }, { "name": "view" }]
+        },
+        {
+          "name": "button",
+          "description": ""
+        },
+        {
+          "name": "resultSourceId",
+          "description": ""
+        },
+        {
+          "name": "errorResultSourceId",
+          "description": ""
+        },
+        {
+          "name": "qs_rKey",
+          "description": ""
+        },
+        {
+          "name": "qs_name",
+          "description": ""
         },
         {
           "name": "lefttblcol",
@@ -40,10 +98,6 @@
           "values": [{ "name": "true" }, { "name": "false" }]
         },
         {
-          "name": "bc-value",
-          "description": ""
-        },
-        {
           "name": "url",
           "description": ""
         },
@@ -55,24 +109,9 @@
           "name": "path",
           "description": ""
         },
-
         {
           "name": "body",
           "description": ""
-        },
-        {
-          "name": "bc-triggers",
-          "description": "",
-          "values": [
-            { "name": "click" },
-            { "name": "change" },
-            { "name": "keydown" },
-            { "name": "keypress" },
-            { "name": "keyup" },
-            { "name": "mouseover" },
-            { "name": "mousemove" },
-            { "name": "mouseleave" }
-          ]
         },
         {
           "name": "triggers",
@@ -93,18 +132,6 @@
         },
         {
           "name": "OnProcessed",
-          "description": ""
-        },
-        {
-          "name": "bc-keyField",
-          "description": ""
-        },
-        {
-          "name": "bc-statusField",
-          "description": ""
-        },
-        {
-          "name": "bc-merge",
           "description": ""
         },
         {
@@ -192,10 +219,6 @@
           "description": ""
         },
         {
-          "name": "name",
-          "description": ""
-        },
-        {
           "name": "lid",
           "description": "1: فارسی\n\n2: انگلیسی\n\n3: عربی\n\n4: فرانسه\n\n5: آلمانی\n\n6: اسپانیایی\n\n7: روسی\n\n8: چینی\n\n9: ترکی\n\n10: گرجی\n\n11: ارمنی\n\n12: آذری\n\n13: اندونزیایی\n\n14: تایلندی\n\n15: اردو\n\n16: هندی\n",
           "values": [
@@ -259,16 +282,6 @@
         {
           "name": "request",
           "description": ""
-        },
-        {
-          "name": "type",
-          "description": "",
-          "values": [
-            { "name": "view" },
-            { "name": "tree" },
-            { "name": "list" },
-            { "name": "scalar" }
-          ]
         },
         {
           "name": "perpage",
@@ -415,6 +428,29 @@
       ]
     },
     {
+      "name": "member",
+      "attributes": [
+        {
+          "name": "name",
+          "description": ""
+        },
+        {
+          "name": "type",
+          "description": "",
+          "values": [
+            { "name": "view" },
+            { "name": "tree" },
+            { "name": "list" },
+            { "name": "scalar" }
+          ]
+        },
+        {
+          "name": "name",
+          "description": ""
+        }
+      ]
+    },
+    {
       "name": "face",
       "attributes": [
         {
@@ -426,6 +462,72 @@
           "description": ""
         }
       ]
+    },
+    {
+      "name": "layout"
+    },
+    {
+      "name": "else-layout"
+    },
+    {
+      "name": "divider"
+    },
+    {
+      "name": "incomplete"
+    },
+    {
+      "name": "params"
+    },
+    {
+      "name": "add",
+      "attributes": [
+        {
+          "name": "name"
+        },
+        {
+          "name": "value"
+        }
+      ]
+    }
+  ],
+  "globalAttributes": [
+    {
+      "name": "bc-off-value",
+      "description": ""
+    },
+    {
+      "name": "bc-value",
+      "description": ""
+    },
+    {
+      "name": "bc-name",
+      "description": ""
+    },
+    {
+      "name": "bc-triggers",
+      "description": "",
+      "values": [
+        { "name": "click" },
+        { "name": "change" },
+        { "name": "keydown" },
+        { "name": "keypress" },
+        { "name": "keyup" },
+        { "name": "mouseover" },
+        { "name": "mousemove" },
+        { "name": "mouseleave" }
+      ]
+    },
+    {
+      "name": "bc-keyField",
+      "description": ""
+    },
+    {
+      "name": "bc-statusField",
+      "description": ""
+    },
+    {
+      "name": "bc-merge",
+      "description": ""
     }
   ]
 }

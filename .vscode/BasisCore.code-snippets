@@ -1,8 +1,20 @@
 {
   /*
-  List full from basiscore client and server with syntax and helper for countinue codes , just a few command not done : 
-  WebSocket, CodeBlock, push, schema, component
+  List full from basiscore client and server with syntax and helper for continue codes , just a few command not done : 
+  WebSocket, CodeBlock, push, component .
   */
+
+  // syntax
+  "syntax : [##source##]": {
+    "scope": "html",
+    "prefix": "##",
+    "body": ["[##${source}##]"]
+  },
+  "syntax : stt": {
+    "scope": "html",
+    "prefix": "stt",
+    "body": ["<script type=\"text/template\">", "    ", "</script>"]
+  },
 
   // script
   "script : basiscore": {
@@ -36,11 +48,6 @@
       "}"
     ]
   },
-  "script : $bc": {
-    "scope": "html,javascript,typescript",
-    "prefix": "$s",
-    "body": ["\\$bc.setSource(\"${key}\",${value});"]
-  },
   "script : sources": {
     "scope": "html,javascript,typescript",
     "prefix": "sources",
@@ -55,6 +62,20 @@
       "        keyFieldName: \"id\"",
       "    },",
       "}"
+    ]
+  },
+  "script : $bc": {
+    "scope": "html,javascript,typescript",
+    "prefix": "$bc",
+    "body": [
+      "\\$bc.${1|setSource(),new(),addFragment(),setOptions(),run(),waitToGetSourceAsync(),tryToGetSource(),util.cloneDeep(),util.source.new(),util.source.runSqlAsync(),util.source.data()|}"
+    ]
+  },
+  "script : mergeType": {
+    "scope": "html,javascript,typescript",
+    "prefix": "mergeType",
+    "body": [
+      "mergeType:${1|basiscore.MergeType.append,basiscore.MergeType.replace|}"
     ]
   },
 
@@ -191,27 +212,28 @@
       "<basis core=\"cookie\" name=\"${key}\" value=\"${value}\" max-age=\"${time}\" ></basis>"
     ]
   },
-
-  // tag
-  "tag : params": {
+  "core : schema": {
     "scope": "html",
-    "prefix": "params",
+    "prefix": "schema",
     "body": [
-      "<params>",
-      "    <add name=\"${source}\" value=\"${value}\" />",
-      "</params>"
+      "<basis core=\"schema\" schemaUrl=\"$url\" displayMode=\"${1|new,edit,view|}\" button=\"[data-btn-add]\" resultSourceId=\"${source}\"></basis>"
     ]
   },
-  "tag : stt": {
+  "core : cookie": {
     "scope": "html",
-    "prefix": "stt",
-    "body": ["<script type=\"text/template\">", "    ", "</script>"]
+    "prefix": "cookie",
+    "body": [
+      "<basis core=\"cookie\" name=\"${name}\" value=\"${source}\"></basis>"
+    ]
   },
-
-  // syntax
-  "syntax : [####]": {
+  "core : component.grid.grid": {
     "scope": "html",
-    "prefix": "##",
-    "body": ["[##${source}##]"]
+    "prefix": "grid",
+    "body": []
+  },
+  "core : component.basiscore.exposer": {
+    "scope": "html",
+    "prefix": "exposer",
+    "body": []
   }
 }
