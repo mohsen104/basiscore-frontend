@@ -229,11 +229,15 @@
   "core : component.grid.grid": {
     "scope": "html",
     "prefix": "grid",
-    "body": []
+    "body": [
+      "<basis core=\"component.basiscore.exposer\" component=\"${exposer_component}\" method=\"${fn}\"></basis>"
+    ]
   },
   "core : component.basiscore.exposer": {
     "scope": "html",
     "prefix": "exposer",
-    "body": []
+    "body": [
+      "<basis core=\"component.grid.grid\" dataMemberName=\"${source}\"></basis>"
+    ]
   }
 }

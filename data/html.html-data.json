@@ -6,7 +6,6 @@
       "attributes": [
         {
           "name": "core",
-          "description": "",
           "values": [
             { "name": "call" },
             { "name": "inlineSource" },
@@ -26,197 +25,155 @@
           ]
         },
         {
-          "name": "paramUrl",
-          "description": ""
+          "name": "paramUrl"
         },
         {
-          "name": "cell",
-          "description": ""
+          "name": "cell"
         },
         {
-          "name": "filesPath",
-          "description": ""
+          "name": "filesPath"
         },
         {
-          "name": "schemaCallback",
-          "description": ""
+          "name": "schemaCallback"
         },
         {
-          "name": "schemaUrl",
-          "description": ""
+          "name": "schemaUrl"
         },
         {
-          "name": "schemaUrl",
-          "description": ""
+          "name": "schemaUrl"
         },
 
         {
-          "name": "schemaUrl",
-          "description": ""
+          "name": "schemaUrl"
         },
         {
           "name": "displayMode",
-          "description": "",
+
           "values": [{ "name": "new" }, { "name": "edit" }, { "name": "view" }]
         },
         {
-          "name": "button",
-          "description": ""
+          "name": "button"
         },
         {
-          "name": "resultSourceId",
-          "description": ""
+          "name": "resultSourceId"
         },
         {
-          "name": "errorResultSourceId",
-          "description": ""
+          "name": "errorResultSourceId"
         },
         {
-          "name": "qs_rKey",
-          "description": ""
+          "name": "qs_rKey"
         },
         {
-          "name": "qs_name",
-          "description": ""
+          "name": "qs_name"
         },
         {
-          "name": "lefttblcol",
-          "description": ""
+          "name": "lefttblcol"
         },
         {
-          "name": "righttblcol",
-          "description": ""
+          "name": "righttblcol"
         },
         {
           "name": "jointype",
-          "description": "",
           "values": [{ "name": "leftjoin" }, { "name": "rightjoin" }]
         },
         {
           "name": "noCache",
-          "description": "",
           "values": [{ "name": "true" }, { "name": "false" }]
         },
         {
-          "name": "url",
-          "description": ""
+          "name": "url"
         },
         {
-          "name": "pagesize",
-          "description": ""
+          "name": "pagesize"
         },
         {
-          "name": "path",
-          "description": ""
+          "name": "path"
         },
         {
-          "name": "body",
-          "description": ""
+          "name": "body"
         },
         {
-          "name": "triggers",
-          "description": ""
+          "name": "triggers"
         },
         {
-          "name": "OnRendering",
-          "description": ""
+          "name": "OnRendering"
         },
 
         {
-          "name": "OnRendered",
-          "description": ""
+          "name": "OnRendered"
         },
         {
-          "name": "OnProcessing",
-          "description": ""
+          "name": "OnProcessing"
         },
         {
-          "name": "OnProcessed",
-          "description": ""
+          "name": "OnProcessed"
         },
         {
-          "name": "name",
-          "description": ""
+          "name": "name"
         },
         {
-          "name": "value",
-          "description": ""
+          "name": "value"
         },
         {
-          "name": "options",
-          "description": ""
+          "name": "options"
         },
         {
           "name": "replace",
-          "description": "",
           "values": [{ "name": "true" }, { "name": "false" }]
         },
         {
           "name": "preview",
-          "description": "",
           "values": [{ "name": "true" }, { "name": "false" }]
         },
         {
-          "name": "idcol",
-          "description": ""
+          "name": "idcol"
         },
         {
-          "name": "nullvalue",
-          "description": ""
+          "name": "nullvalue"
         },
         {
-          "name": "level",
-          "description": ""
+          "name": "level"
         },
         {
-          "name": "parentidcol",
-          "description": ""
+          "name": "parentidcol"
         },
         {
           "name": "rowtype",
-          "description": "",
+
           "values": [{ "name": "even" }, { "name": "odd" }]
         },
         {
           "name": "rendertype",
-          "description": "",
+
           "values": [{ "name": "replace" }, { "name": "append" }]
         },
         {
-          "name": "renderto",
-          "description": ""
+          "name": "renderto"
         },
         {
-          "name": "sampleData",
-          "description": ""
+          "name": "sampleData"
         },
 
         {
-          "name": "data",
-          "description": ""
+          "name": "data"
         },
         {
-          "name": "if",
-          "description": ""
+          "name": "if"
         },
         {
           "name": "run",
-          "description": "",
+
           "values": [{ "name": "atclient" }]
         },
         {
-          "name": "file",
-          "description": ""
+          "name": "file"
         },
-
         {
           "name": "method",
-          "description": "",
           "values": [{ "name": "get" }, { "name": "post" }]
         },
         {
-          "name": "source",
-          "description": ""
+          "name": "source"
         },
         {
           "name": "lid",
@@ -255,71 +212,58 @@
         },
         {
           "name": "imagenotnull",
-          "description": "",
+
           "values": [{ "name": "true" }, { "name": "false" }]
         },
         {
-          "name": "catid",
-          "description": ""
+          "name": "catid"
         },
         {
-          "name": "brandid",
-          "description": ""
+          "name": "brandid"
         },
         {
-          "name": "ownerid",
-          "description": ""
+          "name": "ownerid"
         },
         {
-          "name": "usedforid",
-          "description": ""
+          "name": "usedforid"
         },
         {
           "name": "important",
-          "description": "",
+
           "values": [{ "name": "true" }, { "name": "false" }]
         },
         {
-          "name": "request",
-          "description": ""
+          "name": "request"
         },
         {
-          "name": "perpage",
-          "description": ""
+          "name": "perpage"
         },
         {
-          "name": "pageno",
-          "description": ""
+          "name": "pageno"
         },
         {
-          "name": "size",
-          "description": ""
+          "name": "size"
         },
         {
           "name": "seofinder",
-          "description": "",
+
           "values": [{ "name": "true" }, { "name": "false" }]
         },
         {
-          "name": "schemaid",
-          "description": ""
+          "name": "schemaid"
         },
         {
-          "name": "typeid",
-          "description": ""
+          "name": "typeid"
         },
         {
-          "name": "propertyid",
-          "description": ""
+          "name": "propertyid"
         },
 
         {
-          "name": "order",
-          "description": ""
+          "name": "order"
         },
         {
-          "name": "parentid",
-          "description": ""
+          "name": "parentid"
         },
         {
           "name": "blgid",
@@ -363,33 +307,25 @@
           ]
         },
         {
-          "name": "country",
-          "description": ""
-        },
-
-        {
-          "name": "area",
-          "description": ""
+          "name": "country"
         },
         {
-          "name": "usedforid",
-          "description": ""
+          "name": "area"
         },
         {
-          "name": "userid",
-          "description": ""
+          "name": "usedforid"
         },
         {
-          "name": "rate",
-          "description": ""
+          "name": "userid"
         },
         {
-          "name": "sourcemid",
-          "description": ""
+          "name": "rate"
         },
         {
-          "name": "link",
-          "description": ""
+          "name": "sourcemid"
+        },
+        {
+          "name": "link"
         },
         {
           "name": "format",
@@ -402,28 +338,22 @@
           ]
         },
         {
-          "name": "sort",
-          "description": ""
+          "name": "sort"
         },
         {
-          "name": "datamembername",
-          "description": ""
+          "name": "datamembername"
         },
         {
-          "name": "min",
-          "description": ""
+          "name": "min"
         },
         {
-          "name": "max",
-          "description": ""
+          "name": "max"
         },
         {
-          "name": "max-age",
-          "description": ""
+          "name": "max-age"
         },
         {
-          "name": "pageindexid",
-          "description": ""
+          "name": "pageindexid"
         }
       ]
     },
@@ -431,12 +361,11 @@
       "name": "member",
       "attributes": [
         {
-          "name": "name",
-          "description": ""
+          "name": "name"
         },
         {
           "name": "type",
-          "description": "",
+
           "values": [
             { "name": "view" },
             { "name": "tree" },
@@ -445,8 +374,7 @@
           ]
         },
         {
-          "name": "name",
-          "description": ""
+          "name": "name"
         }
       ]
     },
@@ -454,12 +382,10 @@
       "name": "face",
       "attributes": [
         {
-          "name": "rowcount",
-          "description": ""
+          "name": "rowcount"
         },
         {
-          "name": "filter",
-          "description": ""
+          "name": "filter"
         }
       ]
     },
@@ -492,20 +418,16 @@
   ],
   "globalAttributes": [
     {
-      "name": "bc-off-value",
-      "description": ""
+      "name": "bc-off-value"
     },
     {
-      "name": "bc-value",
-      "description": ""
+      "name": "bc-value"
     },
     {
-      "name": "bc-name",
-      "description": ""
+      "name": "bc-name"
     },
     {
       "name": "bc-triggers",
-      "description": "",
       "values": [
         { "name": "click" },
         { "name": "change" },
@@ -518,16 +440,14 @@
       ]
     },
     {
-      "name": "bc-keyField",
-      "description": ""
+      "name": "bc-keyField"
     },
     {
-      "name": "bc-statusField",
-      "description": ""
+      "name": "bc-statusField"
     },
     {
       "name": "bc-merge",
-      "description": ""
+      "values": [{ "name": "append" }, { "name": "replace" }]
     }
   ]
 }
