@@ -122,10 +122,6 @@
           "values": [{ "name": "true" }, { "name": "false" }]
         },
         {
-          "name": "preview",
-          "values": [{ "name": "true" }, { "name": "false" }]
-        },
-        {
           "name": "idcol"
         },
         {
@@ -242,9 +238,6 @@
           "name": "pageno"
         },
         {
-          "name": "size"
-        },
-        {
           "name": "seofinder",
 
           "values": [{ "name": "true" }, { "name": "false" }]
@@ -255,10 +248,6 @@
         {
           "name": "typeid"
         },
-        {
-          "name": "propertyid"
-        },
-
         {
           "name": "order"
         },
@@ -365,7 +354,6 @@
         },
         {
           "name": "type",
-
           "values": [
             { "name": "view" },
             { "name": "tree" },
@@ -375,6 +363,16 @@
         },
         {
           "name": "name"
+        },
+        {
+          "name": "propertyid"
+        },
+        {
+          "name": "preview",
+          "values": [{ "name": "true" }, { "name": "false" }]
+        },
+        {
+          "name": "size"
         }
       ]
     },
