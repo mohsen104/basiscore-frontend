@@ -7,8 +7,14 @@
   // syntax
   "syntax : [##source##]": {
     "scope": "html",
-    "prefix": "##",
+    "prefix": "[#]",
     "body": ["[##${source}##]"]
+  },
+  // syntax
+  "syntax : {##source##}": {
+    "scope": "html",
+    "prefix": "{#}",
+    "body": ["{##${source}##}"]
   },
   "syntax : stt": {
     "scope": "html",

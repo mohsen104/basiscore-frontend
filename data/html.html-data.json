@@ -25,6 +25,9 @@
           ]
         },
         {
+          "name": "q"
+        },
+        {
           "name": "paramUrl"
         },
         {
@@ -36,13 +39,6 @@
         {
           "name": "schemaCallback"
         },
-        {
-          "name": "schemaUrl"
-        },
-        {
-          "name": "schemaUrl"
-        },
-
         {
           "name": "schemaUrl"
         },
@@ -98,7 +94,6 @@
         {
           "name": "OnRendering"
         },
-
         {
           "name": "OnRendered"
         },
@@ -158,7 +153,6 @@
         },
         {
           "name": "run",
-
           "values": [{ "name": "atclient" }]
         },
         {
