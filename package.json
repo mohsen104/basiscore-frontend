@@ -1,0 +1,19 @@
+{
+  "name": "basiscore-commands",
+  "version": "1.0.1",
+  "description": "best solution ever",
+  "main": "html.html-data.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohsen104/basiscore.git"
+  },
+  "author": "Mohsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohsen104/basiscore/issues"
+  },
+  "homepage": "https://github.com/mohsen104/basiscore#readme"
+}
