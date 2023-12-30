@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohsen104/basiscore.git"
+    "url": "git+https://github.com/mohsen104/basiscore-commands.git"
   },
   "author": "Mohsen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mohsen104/basiscore/issues"
+    "url": "https://github.com/mohsen104/basiscore-commands/issues"
   },
-  "homepage": "https://github.com/mohsen104/basiscore#readme"
+  "homepage": "https://github.com/mohsen104/basiscore-commands#readme"
 }
