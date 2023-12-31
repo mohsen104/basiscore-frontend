@@ -35,10 +35,10 @@ And finally, ready-made scripts including host settings and inline source comman
 
 host | settings | sources | $bc
 
-## Npm
+## Npx
 **To install the package, use the following command in vscode terminal:**
-```npm
-npm i basiscore-commands
+```npx
+npx basiscore-commands
 ```
 
 ## Developing
