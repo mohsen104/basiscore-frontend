@@ -1,6 +1,6 @@
 {
-  "name": "basiscore-front",
-  "version": "1.2.1",
+  "name": "basiscore-command",
+  "version": "1.2.0",
   "type": "module",
   "description": "best solution ever",
   "main": "bin/index.js",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohsen104/basiscore-commands.git"
+    "url": "git+https://github.com/mohsen104/basiscore-command.git"
   },
   "author": "Mohsen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mohsen104/basiscore-commands/issues"
+    "url": "https://github.com/mohsen104/basiscore-command/issues"
   },
-  "homepage": "https://github.com/mohsen104/basiscore-commands#readme",
-  "bin": "bin/app.js"
+  "homepage": "https://github.com/mohsen104/basiscore-command#readme",
+  "bin": "bin/index.js"
 }
