@@ -1,6 +1,7 @@
 {
-  "name": "basiscore-commands",
-  "version": "1.1.0",
+  "name": "basiscore-front",
+  "version": "1.2.1",
+  "type": "module",
   "description": "best solution ever",
   "main": "bin/index.js",
   "scripts": {
@@ -16,5 +17,5 @@
     "url": "https://github.com/mohsen104/basiscore-commands/issues"
   },
   "homepage": "https://github.com/mohsen104/basiscore-commands#readme",
-  "bin": "bin/index.js"
+  "bin": "bin/app.js"
 }
