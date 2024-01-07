@@ -1,5 +1,5 @@
 {
-  "name": "basiscore-command",
+  "name": "basiscore-frontend",
   "version": "1.2.0",
   "type": "module",
   "description": "best solution ever",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohsen104/basiscore-command.git"
+    "url": "git+https://github.com/mohsen104/basiscore-frontend.git"
   },
   "author": "Mohsen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mohsen104/basiscore-command/issues"
+    "url": "https://github.com/mohsen104/basiscore-frontend/issues"
   },
-  "homepage": "https://github.com/mohsen104/basiscore-command#readme",
+  "homepage": "https://github.com/mohsen104/basiscore-frontend#readme",
   "bin": "bin/index.js"
 }

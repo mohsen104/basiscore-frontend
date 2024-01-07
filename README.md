@@ -38,7 +38,7 @@ host | settings | sources | $bc
 ## Npx
 **To install the package, use the following command in vscode terminal:**
 ```npx
-npx basiscore-command
+npx basiscore-frontend
 ```
 
 ## Developing
