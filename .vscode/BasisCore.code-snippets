@@ -1,16 +1,10 @@
 {
-  /*
-  List full from basiscore client and server with syntax and helper for continue codes , just a few command not done : 
-  WebSocket, CodeBlock, push, component .
-  */
-
   // syntax
   "syntax : [##source##]": {
     "scope": "html",
     "prefix": "[#]",
     "body": ["[##${source}##]"]
   },
-  // syntax
   "syntax : {##source##}": {
     "scope": "html",
     "prefix": "{#}",
@@ -208,7 +202,7 @@
     "scope": "html",
     "prefix": "callback",
     "body": [
-      "<basis core=\"callback\" triggers=\"${basisname}.${membername}\"></basis>"
+      "<basis core=\"callback\" triggers=\"${basisname}.${membername}\" run=\"atclient\"></basis>"
     ]
   },
   "core : cookie": {

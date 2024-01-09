@@ -18,7 +18,7 @@ In this package, all the tags needed by BasisCore are defined along with their a
 
 In the following, some commands are designed as abbreviations, to know them, refer to the following table:
 
-stt : <script type="texttemplate></script>
+stt : <script type="text/template"></script>
 
 {#} : {##source##}
 
