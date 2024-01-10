@@ -45,6 +45,6 @@ npx basiscore-frontend
 
 **This package is in the development stage and if its completion is important to you, I would be grateful if you inform me of the commands that may not be included in the package and are used in the BasisCore library, and the bugs that may have commands.**
 
-**Mohsen Karimvand**
+**Manzoomeh**
 
-*manzoomeh.de104@gmail.com*
+*support@manzoomeh.ir*
